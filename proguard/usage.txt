@@ -1,0 +1,12 @@
+kankan.wheel.demo.BuildConfig
+kankan.wheel.demo.CitiesActivity:
+    22:22:static synthetic boolean access$0(kankan.wheel.demo.CitiesActivity)
+kankan.wheel.demo.DateActivity$DateArrayAdapter
+kankan.wheel.demo.DialogActivityDemo:
+    private android.widget.Button mButton2
+kankan.wheel.demo.DialogFragmentDemo
+kankan.wheel.demo.R
+kankan.wheel.demo.R$attr
+kankan.wheel.demo.R$drawable
+kankan.wheel.demo.R$id
+kankan.wheel.demo.R$layout

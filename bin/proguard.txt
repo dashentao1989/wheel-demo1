@@ -1,0 +1,50 @@
+# view AndroidManifest.xml #generated:64
+-keep class kankan.wheel.demo.CitiesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class kankan.wheel.demo.DateActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class kankan.wheel.demo.DialogActivityDemo { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class kankan.wheel.demo.PasswActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class kankan.wheel.demo.SlotMachineActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:10
+-keep class kankan.wheel.demo.TestActivity1 { <init>(...); }
+
+# view AndroidManifest.xml #generated:91
+-keep class kankan.wheel.demo.TestActivity2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class kankan.wheel.demo.TestActivity3 { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class kankan.wheel.demo.Time2Activity { <init>(...); }
+
+# view res/layout/cities_layout.xml #generated:42
+# view res/layout/date_layout.xml #generated:18
+# view res/layout/date_layout.xml #generated:21
+# view res/layout/date_layout.xml #generated:24
+# view res/layout/dialog.xml #generated:27
+# view res/layout/dialog.xml #generated:42
+# view res/layout/passw_layout.xml #generated:24
+# view res/layout/passw_layout.xml #generated:27
+# view res/layout/passw_layout.xml #generated:30
+# view res/layout/passw_layout.xml #generated:33
+# view res/layout/slot_machine_layout.xml #generated:15
+# view res/layout/slot_machine_layout.xml #generated:18
+# view res/layout/slot_machine_layout.xml #generated:21
+# view res/layout/speed1_layout.xml #generated:10
+# view res/layout/speed1_layout.xml #generated:16
+# view res/layout/time2_layout.xml #generated:18
+# view res/layout/time2_layout.xml #generated:21
+# view res/layout/time2_layout.xml #generated:24
+# view res/layout/time2_layout.xml #generated:27
+# view res/layout/time_layout.xml #generated:18
+# view res/layout/time_layout.xml #generated:21
+-keep class kankan.wheel.widget.WheelView { <init>(...); }
+

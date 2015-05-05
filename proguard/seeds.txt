@@ -1,0 +1,257 @@
+kankan.wheel.demo.CitiesActivity
+kankan.wheel.demo.CitiesActivity: CitiesActivity()
+kankan.wheel.demo.DateActivity
+kankan.wheel.demo.DateActivity: DateActivity()
+kankan.wheel.demo.DateDialogActivity
+kankan.wheel.demo.DialogActivityDemo
+kankan.wheel.demo.DialogActivityDemo: DialogActivityDemo()
+kankan.wheel.demo.PasswActivity
+kankan.wheel.demo.PasswActivity: PasswActivity()
+kankan.wheel.demo.SlotMachineActivity
+kankan.wheel.demo.SlotMachineActivity: SlotMachineActivity()
+kankan.wheel.demo.SpeedActivity
+kankan.wheel.demo.TextActivity
+kankan.wheel.demo.Time2Activity
+kankan.wheel.demo.Time2Activity: Time2Activity()
+kankan.wheel.demo.TimeActivity
+kankan.wheel.demo.ValueAnomatorDemo
+kankan.wheel.demo.ValueAnomatorDemo: ValueAnomatorDemo()
+kankan.wheel.demo.WheelDemo
+kankan.wheel.widget.ItemsRange
+kankan.wheel.widget.ItemsRange: int first
+kankan.wheel.widget.ItemsRange: int count
+kankan.wheel.widget.ItemsRange: ItemsRange()
+kankan.wheel.widget.ItemsRange: ItemsRange(int,int)
+kankan.wheel.widget.ItemsRange: int getFirst()
+kankan.wheel.widget.ItemsRange: int getLast()
+kankan.wheel.widget.ItemsRange: int getCount()
+kankan.wheel.widget.ItemsRange: boolean contains(int)
+kankan.wheel.widget.OnWheelChangedListener
+kankan.wheel.widget.OnWheelChangedListener: void onChanged(kankan.wheel.widget.WheelView,int,int)
+kankan.wheel.widget.OnWheelClickedListener
+kankan.wheel.widget.OnWheelClickedListener: void onItemClicked(kankan.wheel.widget.WheelView,int)
+kankan.wheel.widget.OnWheelScrollListener
+kankan.wheel.widget.OnWheelScrollListener: void onScrollingStarted(kankan.wheel.widget.WheelView)
+kankan.wheel.widget.OnWheelScrollListener: void onScrollingFinished(kankan.wheel.widget.WheelView)
+kankan.wheel.widget.WheelAdapter
+kankan.wheel.widget.WheelAdapter: int getItemsCount()
+kankan.wheel.widget.WheelAdapter: java.lang.String getItem(int)
+kankan.wheel.widget.WheelAdapter: int getMaximumLength()
+kankan.wheel.widget.WheelRecycle
+kankan.wheel.widget.WheelRecycle: java.util.List items
+kankan.wheel.widget.WheelRecycle: java.util.List emptyItems
+kankan.wheel.widget.WheelRecycle: kankan.wheel.widget.WheelView wheel
+kankan.wheel.widget.WheelRecycle: WheelRecycle(kankan.wheel.widget.WheelView)
+kankan.wheel.widget.WheelRecycle: int recycleItems(android.widget.LinearLayout,int,kankan.wheel.widget.ItemsRange)
+kankan.wheel.widget.WheelRecycle: android.view.View getItem()
+kankan.wheel.widget.WheelRecycle: android.view.View getEmptyItem()
+kankan.wheel.widget.WheelRecycle: void clearAll()
+kankan.wheel.widget.WheelRecycle: java.util.List addView(android.view.View,java.util.List)
+kankan.wheel.widget.WheelRecycle: void recycleView(android.view.View,int)
+kankan.wheel.widget.WheelRecycle: android.view.View getCachedView(java.util.List)
+kankan.wheel.widget.WheelScroller
+kankan.wheel.widget.WheelScroller: int SCROLLING_DURATION
+kankan.wheel.widget.WheelScroller: int MIN_DELTA_FOR_SCROLLING
+kankan.wheel.widget.WheelScroller: kankan.wheel.widget.WheelScroller$ScrollingListener listener
+kankan.wheel.widget.WheelScroller: android.content.Context context
+kankan.wheel.widget.WheelScroller: android.view.GestureDetector gestureDetector
+kankan.wheel.widget.WheelScroller: android.widget.Scroller scroller
+kankan.wheel.widget.WheelScroller: int lastScrollY
+kankan.wheel.widget.WheelScroller: float lastTouchedY
+kankan.wheel.widget.WheelScroller: boolean isScrollingPerformed
+kankan.wheel.widget.WheelScroller: android.view.GestureDetector$SimpleOnGestureListener gestureListener
+kankan.wheel.widget.WheelScroller: int MESSAGE_SCROLL
+kankan.wheel.widget.WheelScroller: int MESSAGE_JUSTIFY
+kankan.wheel.widget.WheelScroller: android.os.Handler animationHandler
+kankan.wheel.widget.WheelScroller: WheelScroller(android.content.Context,kankan.wheel.widget.WheelScroller$ScrollingListener)
+kankan.wheel.widget.WheelScroller: void setInterpolator(android.view.animation.Interpolator)
+kankan.wheel.widget.WheelScroller: void scroll(int,int)
+kankan.wheel.widget.WheelScroller: void stopScrolling()
+kankan.wheel.widget.WheelScroller: boolean onTouchEvent(android.view.MotionEvent)
+kankan.wheel.widget.WheelScroller: void setNextMessage(int)
+kankan.wheel.widget.WheelScroller: void clearMessages()
+kankan.wheel.widget.WheelScroller: void justify()
+kankan.wheel.widget.WheelScroller: void startScrolling()
+kankan.wheel.widget.WheelScroller: void finishScrolling()
+kankan.wheel.widget.WheelScroller: void access$0(kankan.wheel.widget.WheelScroller,int)
+kankan.wheel.widget.WheelScroller: android.widget.Scroller access$1(kankan.wheel.widget.WheelScroller)
+kankan.wheel.widget.WheelScroller: int access$2(kankan.wheel.widget.WheelScroller)
+kankan.wheel.widget.WheelScroller: void access$3(kankan.wheel.widget.WheelScroller,int)
+kankan.wheel.widget.WheelScroller: kankan.wheel.widget.WheelScroller$ScrollingListener access$4(kankan.wheel.widget.WheelScroller)
+kankan.wheel.widget.WheelScroller: android.os.Handler access$5(kankan.wheel.widget.WheelScroller)
+kankan.wheel.widget.WheelScroller: void access$6(kankan.wheel.widget.WheelScroller)
+kankan.wheel.widget.WheelScroller$1
+kankan.wheel.widget.WheelScroller$1: kankan.wheel.widget.WheelScroller this$0
+kankan.wheel.widget.WheelScroller$1: WheelScroller$1(kankan.wheel.widget.WheelScroller)
+kankan.wheel.widget.WheelScroller$1: boolean onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float)
+kankan.wheel.widget.WheelScroller$1: boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float)
+kankan.wheel.widget.WheelScroller$2
+kankan.wheel.widget.WheelScroller$2: kankan.wheel.widget.WheelScroller this$0
+kankan.wheel.widget.WheelScroller$2: WheelScroller$2(kankan.wheel.widget.WheelScroller)
+kankan.wheel.widget.WheelScroller$2: void handleMessage(android.os.Message)
+kankan.wheel.widget.WheelScroller$ScrollingListener
+kankan.wheel.widget.WheelScroller$ScrollingListener: void onScroll(int)
+kankan.wheel.widget.WheelScroller$ScrollingListener: void onStarted()
+kankan.wheel.widget.WheelScroller$ScrollingListener: void onFinished()
+kankan.wheel.widget.WheelScroller$ScrollingListener: void onJustify()
+kankan.wheel.widget.WheelView
+kankan.wheel.widget.WheelView: int[] SHADOWS_COLORS
+kankan.wheel.widget.WheelView: int ITEM_OFFSET_PERCENT
+kankan.wheel.widget.WheelView: int PADDING
+kankan.wheel.widget.WheelView: int DEF_VISIBLE_ITEMS
+kankan.wheel.widget.WheelView: int currentItem
+kankan.wheel.widget.WheelView: int visibleItems
+kankan.wheel.widget.WheelView: int itemHeight
+kankan.wheel.widget.WheelView: android.graphics.drawable.Drawable centerDrawable
+kankan.wheel.widget.WheelView: android.graphics.drawable.GradientDrawable topShadow
+kankan.wheel.widget.WheelView: android.graphics.drawable.GradientDrawable bottomShadow
+kankan.wheel.widget.WheelView: kankan.wheel.widget.WheelScroller scroller
+kankan.wheel.widget.WheelView: boolean isScrollingPerformed
+kankan.wheel.widget.WheelView: int scrollingOffset
+kankan.wheel.widget.WheelView: boolean isCyclic
+kankan.wheel.widget.WheelView: android.widget.LinearLayout itemsLayout
+kankan.wheel.widget.WheelView: int firstItem
+kankan.wheel.widget.WheelView: kankan.wheel.widget.adapters.WheelViewAdapter viewAdapter
+kankan.wheel.widget.WheelView: kankan.wheel.widget.WheelRecycle recycle
+kankan.wheel.widget.WheelView: java.util.List changingListeners
+kankan.wheel.widget.WheelView: java.util.List scrollingListeners
+kankan.wheel.widget.WheelView: java.util.List clickingListeners
+kankan.wheel.widget.WheelView: kankan.wheel.widget.WheelScroller$ScrollingListener scrollingListener
+kankan.wheel.widget.WheelView: android.database.DataSetObserver dataObserver
+kankan.wheel.widget.WheelView: void <clinit>()
+kankan.wheel.widget.WheelView: WheelView(android.content.Context,android.util.AttributeSet,int)
+kankan.wheel.widget.WheelView: WheelView(android.content.Context,android.util.AttributeSet)
+kankan.wheel.widget.WheelView: WheelView(android.content.Context)
+kankan.wheel.widget.WheelView: void initData(android.content.Context)
+kankan.wheel.widget.WheelView: void setInterpolator(android.view.animation.Interpolator)
+kankan.wheel.widget.WheelView: int getVisibleItems()
+kankan.wheel.widget.WheelView: void setVisibleItems(int)
+kankan.wheel.widget.WheelView: kankan.wheel.widget.adapters.WheelViewAdapter getViewAdapter()
+kankan.wheel.widget.WheelView: void setViewAdapter(kankan.wheel.widget.adapters.WheelViewAdapter)
+kankan.wheel.widget.WheelView: void addChangingListener(kankan.wheel.widget.OnWheelChangedListener)
+kankan.wheel.widget.WheelView: void removeChangingListener(kankan.wheel.widget.OnWheelChangedListener)
+kankan.wheel.widget.WheelView: void notifyChangingListeners(int,int)
+kankan.wheel.widget.WheelView: void addScrollingListener(kankan.wheel.widget.OnWheelScrollListener)
+kankan.wheel.widget.WheelView: void removeScrollingListener(kankan.wheel.widget.OnWheelScrollListener)
+kankan.wheel.widget.WheelView: void notifyScrollingListenersAboutStart()
+kankan.wheel.widget.WheelView: void notifyScrollingListenersAboutEnd()
+kankan.wheel.widget.WheelView: void addClickingListener(kankan.wheel.widget.OnWheelClickedListener)
+kankan.wheel.widget.WheelView: void removeClickingListener(kankan.wheel.widget.OnWheelClickedListener)
+kankan.wheel.widget.WheelView: void notifyClickListenersAboutClick(int)
+kankan.wheel.widget.WheelView: int getCurrentItem()
+kankan.wheel.widget.WheelView: void setCurrentItem(int,boolean)
+kankan.wheel.widget.WheelView: void setCurrentItem(int)
+kankan.wheel.widget.WheelView: boolean isCyclic()
+kankan.wheel.widget.WheelView: void setCyclic(boolean)
+kankan.wheel.widget.WheelView: void invalidateWheel(boolean)
+kankan.wheel.widget.WheelView: void initResourcesIfNecessary()
+kankan.wheel.widget.WheelView: int getDesiredHeight(android.widget.LinearLayout)
+kankan.wheel.widget.WheelView: int getItemHeight()
+kankan.wheel.widget.WheelView: int calculateLayoutWidth(int,int)
+kankan.wheel.widget.WheelView: void onMeasure(int,int)
+kankan.wheel.widget.WheelView: void onLayout(boolean,int,int,int,int)
+kankan.wheel.widget.WheelView: void layout(int,int)
+kankan.wheel.widget.WheelView: void onDraw(android.graphics.Canvas)
+kankan.wheel.widget.WheelView: void drawShadows(android.graphics.Canvas)
+kankan.wheel.widget.WheelView: void drawItems(android.graphics.Canvas)
+kankan.wheel.widget.WheelView: void drawCenterRect(android.graphics.Canvas)
+kankan.wheel.widget.WheelView: boolean onTouchEvent(android.view.MotionEvent)
+kankan.wheel.widget.WheelView: void doScroll(int)
+kankan.wheel.widget.WheelView: void scroll(int,int)
+kankan.wheel.widget.WheelView: kankan.wheel.widget.ItemsRange getItemsRange()
+kankan.wheel.widget.WheelView: boolean rebuildItems()
+kankan.wheel.widget.WheelView: void updateView()
+kankan.wheel.widget.WheelView: void createItemsLayout()
+kankan.wheel.widget.WheelView: void buildViewForMeasuring()
+kankan.wheel.widget.WheelView: boolean addViewItem(int,boolean)
+kankan.wheel.widget.WheelView: boolean isValidItemIndex(int)
+kankan.wheel.widget.WheelView: android.view.View getItemView(int)
+kankan.wheel.widget.WheelView: void stopScrolling()
+kankan.wheel.widget.WheelView: void access$0(kankan.wheel.widget.WheelView,boolean)
+kankan.wheel.widget.WheelView: void access$1(kankan.wheel.widget.WheelView,int)
+kankan.wheel.widget.WheelView: int access$2(kankan.wheel.widget.WheelView)
+kankan.wheel.widget.WheelView: void access$3(kankan.wheel.widget.WheelView,int)
+kankan.wheel.widget.WheelView: kankan.wheel.widget.WheelScroller access$4(kankan.wheel.widget.WheelView)
+kankan.wheel.widget.WheelView: boolean access$5(kankan.wheel.widget.WheelView)
+kankan.wheel.widget.WheelView$1
+kankan.wheel.widget.WheelView$1: kankan.wheel.widget.WheelView this$0
+kankan.wheel.widget.WheelView$1: WheelView$1(kankan.wheel.widget.WheelView)
+kankan.wheel.widget.WheelView$1: void onStarted()
+kankan.wheel.widget.WheelView$1: void onScroll(int)
+kankan.wheel.widget.WheelView$1: void onFinished()
+kankan.wheel.widget.WheelView$1: void onJustify()
+kankan.wheel.widget.WheelView$2
+kankan.wheel.widget.WheelView$2: kankan.wheel.widget.WheelView this$0
+kankan.wheel.widget.WheelView$2: WheelView$2(kankan.wheel.widget.WheelView)
+kankan.wheel.widget.WheelView$2: void onChanged()
+kankan.wheel.widget.WheelView$2: void onInvalidated()
+kankan.wheel.widget.adapters.AbstractWheelAdapter
+kankan.wheel.widget.adapters.AbstractWheelAdapter: java.util.List datasetObservers
+kankan.wheel.widget.adapters.AbstractWheelAdapter: AbstractWheelAdapter()
+kankan.wheel.widget.adapters.AbstractWheelAdapter: android.view.View getEmptyItem(android.view.View,android.view.ViewGroup)
+kankan.wheel.widget.adapters.AbstractWheelAdapter: void registerDataSetObserver(android.database.DataSetObserver)
+kankan.wheel.widget.adapters.AbstractWheelAdapter: void unregisterDataSetObserver(android.database.DataSetObserver)
+kankan.wheel.widget.adapters.AbstractWheelAdapter: void notifyDataChangedEvent()
+kankan.wheel.widget.adapters.AbstractWheelAdapter: void notifyDataInvalidatedEvent()
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: int TEXT_VIEW_ITEM_RESOURCE
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: int NO_RESOURCE
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: int DEFAULT_TEXT_COLOR
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: int LABEL_COLOR
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: int DEFAULT_TEXT_SIZE
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: int textColor
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: int textSize
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: android.content.Context context
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: android.view.LayoutInflater inflater
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: int itemResourceId
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: int itemTextResourceId
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: int emptyItemResourceId
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: AbstractWheelTextAdapter(android.content.Context)
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: AbstractWheelTextAdapter(android.content.Context,int)
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: AbstractWheelTextAdapter(android.content.Context,int,int)
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: int getTextColor()
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: void setTextColor(int)
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: int getTextSize()
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: void setTextSize(int)
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: int getItemResource()
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: void setItemResource(int)
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: int getItemTextResource()
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: void setItemTextResource(int)
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: int getEmptyItemResource()
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: void setEmptyItemResource(int)
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: java.lang.CharSequence getItemText(int)
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: android.view.View getItem(int,android.view.View,android.view.ViewGroup)
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: android.view.View getEmptyItem(android.view.View,android.view.ViewGroup)
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: void configureTextView(android.widget.TextView)
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: android.widget.TextView getTextView(android.view.View,int)
+kankan.wheel.widget.adapters.AbstractWheelTextAdapter: android.view.View getView(int,android.view.ViewGroup)
+kankan.wheel.widget.adapters.AdapterWheel
+kankan.wheel.widget.adapters.AdapterWheel: kankan.wheel.widget.WheelAdapter adapter
+kankan.wheel.widget.adapters.AdapterWheel: AdapterWheel(android.content.Context,kankan.wheel.widget.WheelAdapter)
+kankan.wheel.widget.adapters.AdapterWheel: kankan.wheel.widget.WheelAdapter getAdapter()
+kankan.wheel.widget.adapters.AdapterWheel: int getItemsCount()
+kankan.wheel.widget.adapters.AdapterWheel: java.lang.CharSequence getItemText(int)
+kankan.wheel.widget.adapters.ArrayWheelAdapter
+kankan.wheel.widget.adapters.ArrayWheelAdapter: java.lang.Object[] items
+kankan.wheel.widget.adapters.ArrayWheelAdapter: ArrayWheelAdapter(android.content.Context,java.lang.Object[])
+kankan.wheel.widget.adapters.ArrayWheelAdapter: java.lang.CharSequence getItemText(int)
+kankan.wheel.widget.adapters.ArrayWheelAdapter: int getItemsCount()
+kankan.wheel.widget.adapters.NumericWheelAdapter
+kankan.wheel.widget.adapters.NumericWheelAdapter: int DEFAULT_MAX_VALUE
+kankan.wheel.widget.adapters.NumericWheelAdapter: int DEFAULT_MIN_VALUE
+kankan.wheel.widget.adapters.NumericWheelAdapter: int minValue
+kankan.wheel.widget.adapters.NumericWheelAdapter: int maxValue
+kankan.wheel.widget.adapters.NumericWheelAdapter: java.util.List list
+kankan.wheel.widget.adapters.NumericWheelAdapter: java.lang.String format
+kankan.wheel.widget.adapters.NumericWheelAdapter: NumericWheelAdapter(android.content.Context)
+kankan.wheel.widget.adapters.NumericWheelAdapter: NumericWheelAdapter(android.content.Context,int,int)
+kankan.wheel.widget.adapters.NumericWheelAdapter: NumericWheelAdapter(android.content.Context,int,int,java.util.List)
+kankan.wheel.widget.adapters.NumericWheelAdapter: NumericWheelAdapter(android.content.Context,int,int,java.lang.String)
+kankan.wheel.widget.adapters.NumericWheelAdapter: java.lang.CharSequence getItemText(int)
+kankan.wheel.widget.adapters.NumericWheelAdapter: int getItemsCount()
+kankan.wheel.widget.adapters.WheelViewAdapter
+kankan.wheel.widget.adapters.WheelViewAdapter: int getItemsCount()
+kankan.wheel.widget.adapters.WheelViewAdapter: android.view.View getItem(int,android.view.View,android.view.ViewGroup)
+kankan.wheel.widget.adapters.WheelViewAdapter: android.view.View getEmptyItem(android.view.View,android.view.ViewGroup)
+kankan.wheel.widget.adapters.WheelViewAdapter: void registerDataSetObserver(android.database.DataSetObserver)
+kankan.wheel.widget.adapters.WheelViewAdapter: void unregisterDataSetObserver(android.database.DataSetObserver)
