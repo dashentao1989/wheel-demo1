@@ -19,6 +19,7 @@ public class TestActivity3 extends Activity {
 
 			@Override
 			public void onClick(View v) {
+				System.out.println("hahaha");
 				Intent intent = new Intent();
 				intent.setClass(TestActivity3.this, TestActivity1.class);
 				startActivity(intent);
