@@ -21,6 +21,7 @@ public class TestActivity1 extends Activity {
 			public void onClick(View v) {
 				System.out.println("git server is test!");
 				Intent intent = new Intent();
+				System.out.println("git test is called!");
 				intent.setClass(TestActivity1.this, TestActivity2.class);
 				// intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 				startActivity(intent);

@@ -29,6 +29,7 @@ public class TestActivity2 extends Activity {
 
 			@Override
 			public void onClick(View v) {
+				System.out.println("testActivity2 is called!");
 				Intent intent = new Intent();
 				intent.setClass(TestActivity2.this, TestActivity3.class);
 				startActivity(intent);
